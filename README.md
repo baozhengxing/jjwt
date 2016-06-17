@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/jwtk/jjwt.svg?branch=master)](https://travis-ci.org/jwtk/jjwt)
 [![Coverage Status](https://coveralls.io/repos/jwtk/jjwt/badge.svg?branch=master)](https://coveralls.io/r/jwtk/jjwt?branch=master)
 
-# Java JWT: JSON Web Token for Java and Android
+## Java JWT: JSON Web Token for Java and Android
 
 JJWT aims to be the easiest to use and understand library for creating and verifying JSON Web Tokens (JWTs) on the JVM.
 
@@ -37,7 +37,9 @@ dependencies {
 
 Note: JJWT depends on Jackson 2.x.  If you're already using an older version of Jackson in your app, [read this](#olderJackson)
 
-## Usage
+## Quickstart
+
+There are more comprehensive docs [below](#detailed-docs).
 
 Most complexity is hidden behind a convenient and readable builder-based [fluent interface](http://en.wikipedia.org/wiki/Fluent_interface), great for relying on IDE auto-completion to write code quickly.  Here's an example:
 
@@ -118,6 +120,8 @@ try {
 These feature sets will be implemented in a future release.  Community contributions are welcome!
 
 ## Detailed Docs
+
+
 
 ## Learn More
 
